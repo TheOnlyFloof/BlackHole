@@ -1,0 +1,56 @@
+# @bot.command()
+# async def assign(ctx):
+#     role = discord.utils.get(ctx.guild.roles, name=role_assign)
+#     if role:
+#         await ctx.author.add_roles(role)
+#        await ctx.send(f"{ctx.author.mention} is now assigned to the role [{role_assign}].")
+#     else:
+#         await ctx.send("This role does not exist")
+
+# @bot.command()
+# async def remove(ctx):
+#     role = discord.utils.get(ctx.guild.roles, name=role_assign)
+#     if role:
+#         await ctx.author.remove_roles(role)
+#         await ctx.send(f"{ctx.author.mention} has got the role [{role_assign}] removed from their profile.")
+#     else:
+#         await ctx.send("This role does not exist")
+
+# @bot.command()
+# async def hello(ctx):
+#    await ctx.send(f"Hello {ctx.author.mention}!")
+
+# @bot.command()
+# @commands.has_role(role_assign)
+# async def secret(ctx):
+#     await ctx.send("Success.")
+
+# @secret.error
+# async def secret_error(ctx, error):
+#   if isinstance(error, commands.MissingRole):
+#        await ctx.send(f"Error. You do not have the role [{role_assign}]")
+
+# @bot.command()
+# async def dm(ctx, *, msg):
+#    await ctx.author.send(f"You said {msg}.")
+
+# @bot.command()
+# async def reply(ctx):
+#     await ctx.reply("reply test")
+
+
+
+
+
+
+
+
+#  EMBED VERSION OF !send
+#
+#    embed = discord.Embed(
+#        title=
+#        "[---o---o---o---][---o---o---o---][---o---o---o---]"
+#        , description=
+#        content
+#    )
+#    await ctx.send(embed=embed)
