@@ -1,3 +1,11 @@
+# THIS FILE HOLDS COMMANDS THAT WERE REMOVED FROM BLACKHOLE. MOST OF THEME WERE ONLY USED AS TESTS etc.
+# FEEL FREE TO USE THEM AS A BASE FOR YOUR OWN BOT.
+
+
+
+
+
+
 # @bot.command()
 # async def assign(ctx):
 #     role = discord.utils.get(ctx.guild.roles, name=role_assign)
